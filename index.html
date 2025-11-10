@@ -40,13 +40,13 @@ header {
 }
 
 .logo {
-  width: 260px; /* più largo */
-  height: 170px; /* meno alto */
-  margin: 0 auto 20px auto;
-  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUpXPFEJ2GWvB6VYNr_z-q1pBQvO9wHNFoVtHK8Ccpqv2WbCyjGw0swg47ThgevNUXctjQOcbKXzlkF8yjR92v5L9ybKHedi0RpnAn89k0vcnWufILltaFZfnEXFTEvbJD-ONOk3m4qps/s1600/Ciociara4.JPG')
-    no-repeat center/contain; /* mantieni proporzioni perfette */
-  background-color: rgba(0, 0, 0, 0.4); /* leggero sfondo per risalto */
-  box-shadow: 0 0 20px rgba(116, 185, 255, .8);
+  width: 320px;
+  height: auto;
+  margin: 0 auto 25px;
+  display: block;
+  box-shadow: 0 0 20px rgba(116, 185, 255, .9);
+  border-radius: 12px;
+  background: transparent;
 }
 
 h1 {
@@ -106,7 +106,7 @@ h1 {
 <body>
 
 <header>
-  <div class="logo"></div>
+  <img class="logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUpXPFEJ2GWvB6VYNr_z-q1pBQvO9wHNFoVtHK8Ccpqv2WbCyjGw0swg47ThgevNUXctjQOcbKXzlkF8yjR92v5L9ybKHedi0RpnAn89k0vcnWufILltaFZfnEXFTEvbJD-ONOk3m4qps/s1600/Ciociara4.JPG" alt="logo lazio meme">
   <h1>La lazie non vince qualcosa da:</h1>
   <p class="subtitle">
     Ultimo titolo: <strong>Supercoppa Italiana 2019</strong><br>
@@ -148,9 +148,6 @@ function updateCountdown() {
 updateCountdown();
 setInterval(updateCountdown, 1000);
 </script>
-
-</body>
-</html>
 
 </body>
 </html>
